@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+    <style>
+        ol li a{
+            color: pink;
+        }
+        .nav li a{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>我是ol</li>
+        <li>我是ol</li>
+        <li><a href="">我是ol孙子</a></li>
+    </ol>
+    <ol class="nav">
+        <li>我是ol</li>
+        <li>我是ol</li>
+        <li><a href="">我是ol孙子</a></li>
+    </ol>
+    <ul>
+        <li>我是ul</li>
+        <li>我是ul</li>
+        <li>我是ul</li>
+    </ul>
+</body>
+</html>

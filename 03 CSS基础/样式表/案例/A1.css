@@ -1,0 +1,30 @@
+body{
+    font: 16px/28px "Microsoft YaHei UI";
+}
+h1{
+    font-weight: 400;
+    text-align: center;
+}
+.gray{
+    color: #888888;
+    text-align: center;
+}
+a{
+    text-decoration:none ;
+}
+.search{
+    color: #666;
+}
+.sh{
+    font-weight: 700;
+}
+p{
+    text-indent:2em;
+}
+.pic{
+    text-align: center;
+}
+.footer{
+    color: #888888;
+    font-size: 12px;
+}
