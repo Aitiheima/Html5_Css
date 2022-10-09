@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子影子</title>
+    <style>
+        .one{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+            /*box-shadow: 10px 10px 10px 10px rgba(0,0,0,.3);*/
+            /*box-shadow: 10px 10px;*/
+        }
+        .one:hover{
+            box-shadow: 10px 10px 10px 10px rgba(0,0,0,.3);
+        }
+        .two{
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border-radius:50px ;
+        }
+        .three{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px 20px 30px 40px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</body>
+</html>
